@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="OTTER_SIM_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="OTTER_SIM" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="32,393.370000 us"></ZoomStartTime>
+      <ZoomEndTime time="32,407.030001 us"></ZoomEndTime>
+      <Cursor1Time time="32,399.830000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="73"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wvobject fp_name="/OTTER_SIM/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/SCLK" type="logic">
+      <obj_property name="ElementShortName">SCLK</obj_property>
+      <obj_property name="ObjectShortName">SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/BTNL" type="logic">
+      <obj_property name="ElementShortName">BTNL</obj_property>
+      <obj_property name="ObjectShortName">BTNL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/MCU/mie" type="logic">
+      <obj_property name="ElementShortName">mie</obj_property>
+      <obj_property name="ObjectShortName">mie</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/MCU/CUFSM/INTR" type="logic">
+      <obj_property name="ElementShortName">INTR</obj_property>
+      <obj_property name="ObjectShortName">INTR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/BTNC" type="logic">
+      <obj_property name="ElementShortName">BTNC</obj_property>
+      <obj_property name="ObjectShortName">BTNC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/MCU/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/MCU/pcPlus4" type="array">
+      <obj_property name="ElementShortName">pcPlus4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcPlus4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/MCU/wd" type="array">
+      <obj_property name="ElementShortName">wd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/MCU/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/MCU/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/MCU/CUFSM/PS" type="array">
+      <obj_property name="ElementShortName">PS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/MCU/CUD/OPCODE" type="array">
+      <obj_property name="ElementShortName">OPCODE[6:0]</obj_property>
+      <obj_property name="ObjectShortName">OPCODE[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/MCU/RegF/ram" type="array">
+      <obj_property name="ElementShortName">ram[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/MCU/RiscAlu/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/MCU/RiscAlu/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/MCU/RiscAlu/alu_fun" type="array">
+      <obj_property name="ElementShortName">alu_fun[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_fun[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/MCU/RiscAlu/out" type="array">
+      <obj_property name="ElementShortName">out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/SWITCHES" type="array">
+      <obj_property name="ElementShortName">SWITCHES[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SWITCHES[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/LEDS" type="array">
+      <obj_property name="ElementShortName">LEDS[15:0]</obj_property>
+      <obj_property name="ObjectShortName">LEDS[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/CATHODES" type="array">
+      <obj_property name="ElementShortName">CATHODES[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CATHODES[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/ANODES" type="array">
+      <obj_property name="ElementShortName">ANODES[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ANODES[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/SPI/dout" type="logic">
+      <obj_property name="ElementShortName">dout</obj_property>
+      <obj_property name="ObjectShortName">dout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/SPI_SDO" type="logic">
+      <obj_property name="ElementShortName">SPI_SDO</obj_property>
+      <obj_property name="ObjectShortName">SPI_SDO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/SPI/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/SPI/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/SPI_SCLK" type="logic">
+      <obj_property name="ElementShortName">SPI_SCLK</obj_property>
+      <obj_property name="ObjectShortName">SPI_SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/SPI_CS" type="logic">
+      <obj_property name="ElementShortName">SPI_CS</obj_property>
+      <obj_property name="ObjectShortName">SPI_CS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/SPI_SDO" type="logic">
+      <obj_property name="ElementShortName">SPI_SDO</obj_property>
+      <obj_property name="ObjectShortName">SPI_SDO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/SPI/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/SPI/cur" type="array">
+      <obj_property name="ElementShortName">cur[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cur[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/SPI/nxt" type="array">
+      <obj_property name="ElementShortName">nxt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">nxt[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/SPI/tdat" type="array">
+      <obj_property name="ElementShortName">tdat[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tdat[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/TFT_DC" type="logic">
+      <obj_property name="ElementShortName">TFT_DC</obj_property>
+      <obj_property name="ObjectShortName">TFT_DC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/SPI_TFT_CS" type="logic">
+      <obj_property name="ElementShortName">SPI_TFT_CS</obj_property>
+      <obj_property name="ObjectShortName">SPI_TFT_CS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTER_SIM/Otter/SPI_SDO" type="logic">
+      <obj_property name="ElementShortName">SPI_SDO</obj_property>
+      <obj_property name="ObjectShortName">SPI_SDO</obj_property>
+   </wvobject>
+</wave_config>

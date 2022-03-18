@@ -24,5 +24,9 @@ To incorporate this file into your own OTTER or any FPGA, add the spi_master_2.v
     localparam SPI_START_AD = 32'h11100000;
     localparam SPI_CS_AD = 32'h11110000;
     localparam TFT_DC_AD = 32'h11120000;
+
    
 See the Otter Wrapper in the FPGA folder for exactly how it is all hooked up. Note that the FPGA folder contains the entire Vivado project in OTTER_FINAL233 as well to run yourself, or just the wrapper and SPI module to incorporate onto your own board.
+
+Hardware Layout:
+<img width="1614" alt="SPI" src="https://user-images.githubusercontent.com/74398368/159061662-4eeab9bb-89a2-4d8b-b515-a6bc565d3601.png">

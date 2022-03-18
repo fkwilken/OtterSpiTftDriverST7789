@@ -3,10 +3,10 @@
 
 //PICTURES located in images, stored as 16bit arrays of colors
 // #include "otterhighres.h"
-#include "images/elmo1.h"
-#include "images/elmo2.h"
-#include "images/elmo3.h"
-#include "images/elmo4.h"
+#include "../images/elmo1.h"
+#include "../images/elmo2.h"
+#include "../images/elmo3.h"
+#include "../images/elmo4.h"
 
 void main(){
     //Inittialize SPI by setting start to low

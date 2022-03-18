@@ -30,3 +30,5 @@ See the Otter Wrapper in the FPGA folder for exactly how it is all hooked up. No
 
 Hardware Layout:
 <img width="1614" alt="SPI" src="https://user-images.githubusercontent.com/74398368/159061662-4eeab9bb-89a2-4d8b-b515-a6bc565d3601.png">
+
+All of the memory mapped IO is controlled by the driver c code located in the driver folder. The code contains several parts. The otterSpiDriver.c file contains the OTTER-specifc memory mapped IO controls. The code is well commented and may be read to be understood. All of the functions specific to the ST7789 display are in the ST7789.c file. This file was once a C++ driver written by adafruit, that someone ported to CCS-C (a specifc C variant) which I then ported to normal c. To compile it, use gcc 
